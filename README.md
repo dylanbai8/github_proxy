@@ -2,17 +2,17 @@
 
 命令格式：
 ```
-#设置 sock5 代理（本地DNS）
+#设置 socks5 代理（本地DNS）
 git config --global http.proxy socks5://your-server:your-port
 
-#设置 sock5 代理（远程DNS）
+#设置 socks5 代理（远程DNS）
 git config --global http.proxy socks5h://your-server:your-port
 
 #只对 github.com 代理
 git config --global http.https://github.com.proxy socks5://your-server:your-port
 ```
 
-# 以常用的 sock5本地 127.0.0.1:1080 为例
+# 以常用的 socks5本地 127.0.0.1:1080 为例
 # 请先开启 ss ssr v2ray 等
 
 设置全局代理
